@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(37, 0, 66);
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 2% ;
+    padding-left: 10%;
+    padding-right: 5%; */
+display: flex;
+
+}
+.right{
+    width: 30%;
+    background-color:#14121c;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: rgb(255, 255, 255)
+}
+
+@font-face {
+    font-family: hugolers;
+    src: url(fonts/hugolers.ttf);
+   
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(fonts/UbuntuMono-Regular.ttf);
+}
+@font-face {
+    font-family: liberation;
+    src: url(fonts/LiberationSans-Regular.ttf);
+
+}
+@font-face {
+    font-family: creato-light;
+    src: url(fonts/CreatoDisplay-Light.otf);
+}
+@font-face {
+    font-family: creato;
+    src: url(fonts/CreatoDisplay-Regular.otf);
+
+}
+@font-face {
+    font-family: streak-light;
+    src: url(fonts/LTStreak-Light.ttf);
+}
+@font-face {
+    font-family: streak-regular;
+    src: url(fonts/LTStreak-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-condensed;
+    src: url(fonts/Roboto-Condensed.ttf);
+}
+@font-face {
+    font-family: segoe-ui;
+    src: url(fonts/Segoe\ UI\ Bold.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(fonts/Poppins-Bold.otf);
+}
+
+.home{
+    align-items: flex-start;
+    background-color: #5918df;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    line-height: 1;
+    padding: 7px 0 0;
+    position: relative;
+    top: -4px;
+    font-weight: bolder;
+}
+.left{
+    width: 70%;
+    background-color: bisque;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.hashtags{
+    /* height: 20%; */
+    width:90%;
+    padding-top: 5%;
+    font-size: 20px;
+font-family: creato;
+font-weight: 600;
+}
+.title{
+    /* height: 10%; */
+    width: 80%;
+    font-size: 30px;
+    padding: 8% 0;
+    font-family: poppins-bold;
+    font-weight: 900;
+}
+
+.content{
+    padding-top: 5%;
+    font-size: 20px;
+}
+ ul {
+    font-size: 15px;
+}
